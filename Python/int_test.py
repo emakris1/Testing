@@ -7,12 +7,12 @@ min_pct_pow = 0
 max_pct_pow = 100
 
 while choice != -1:
-    choice = int(raw_input('Are you entering a (1) Power Percentage or a (2) Power Value? (Enter -1 to quit): '))
+    choice = int(input('Are you entering a (1) Power Percentage or a (2) Power Value? (Enter -1 to quit): '))
     if choice == -1:
         break
     elif choice == 1:
         while (cur_pct_pow != -1):
-            cur_pct_pow = int(raw_input('Enter a power percentage between ' + str(min_pct_pow) + ' and ' + str(max_pct_pow) + ' (or -1 to return to input type selection): '))
+            cur_pct_pow = int(input('Enter a power percentage between ' + str(min_pct_pow) + ' and ' + str(max_pct_pow) + ' (or -1 to return to input type selection): '))
             if cur_pct_pow == -1:
                 break
             elif cur_pct_pow > max_pct_pow or cur_pct_pow < min_pct_pow:
@@ -22,7 +22,7 @@ while choice != -1:
                 print('Power Value: ' + str(pct_to_val))
     elif choice == 2:
         while (cur_val_pow != -1):
-            cur_val_pow = int(raw_input('Enter a power value between ' + str(min_val_pow) + ' and ' + str(max_val_pow) + ' (or -1 to return to input type selection): '))
+            cur_val_pow = int(input('Enter a power value between ' + str(min_val_pow) + ' and ' + str(max_val_pow) + ' (or -1 to return to input type selection): '))
             if cur_val_pow == -1:
                 break
             elif cur_val_pow > max_val_pow or cur_val_pow < min_val_pow:
