@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 ver_str = 'VER_STR:'
 
 for v in ver_str:

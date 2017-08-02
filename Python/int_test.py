@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 choice = 0
 cur_val_pow = 0
 min_val_pow = 0

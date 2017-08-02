@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 rows = 24
 cols = 32
 win_width = 12
